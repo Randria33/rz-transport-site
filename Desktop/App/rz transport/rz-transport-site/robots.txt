@@ -1,0 +1,19 @@
+# robots.txt for RZ TRANSPORT
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://www.rztrans.com/sitemap.xml
+
+# Disallow admin and private directories (if any)
+Disallow: /admin/
+Disallow: /private/
+Disallow: /_/
+
+# Allow CSS and JS for Google
+User-agent: Googlebot
+Allow: /assets/css/
+Allow: /assets/js/
+
+# Crawl-delay for respectful crawling
+Crawl-delay: 1
