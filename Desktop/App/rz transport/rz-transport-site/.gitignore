@@ -24,6 +24,7 @@ desktop.ini
 # Build files
 dist/
 build/
+.gradle/
 
 # Environment files
 .env
@@ -33,3 +34,12 @@ build/
 # Backup files
 *.backup
 *.bak
+
+# Ignorer les fichiers système Windows
+.cache/
+.config/
+.android/
+.conda/
+.docker/
+.dotnet/
+AppData/

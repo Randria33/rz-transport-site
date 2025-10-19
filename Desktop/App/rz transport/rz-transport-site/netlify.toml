@@ -1,9 +1,7 @@
 # Netlify Configuration
 [build]
   publish = "."
-
-[build.environment]
-  NODE_VERSION = "20.14.0"
+  command = ""
 
 # Headers configuration (applies _headers file automatically)
 [[headers]]
